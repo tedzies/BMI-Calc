@@ -9,7 +9,7 @@ body{
   align-items: center;
   display: flex;
   flex-direction: column;
-
+  height: 100vh;
 }
 
 .title{
@@ -61,4 +61,8 @@ button{
 
 p{
   padding: 0px 8px;
+}
+
+h1{
+  padding-top: 8px;
 }
