@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <div class="title">
+    <h1>Body Mass Index</h1>
+    <h3>Calculator</h3>
+  </div>
+  <form class="form" id="form" onsubmit="">
+    <div class="r-1">
+      <label class="container">
+      <input type="number" class="text-input" id="age" autocomplete="off" required><p>Age</p>
+      </label>
+      <div class="mf">
+        <label class="container">
+          <input type="radio" name="male" id="m"><p>Male</p>
+        </label>
+        <label class="container">
+          <input type="radio" name="female" id="f">
+          <p>Female</p>
+        </label>
+      </div>
+    </div>
+    <div class="r-2">
+      <label class="container">
+        <input type="number" class="text-input" id="height" autocomplete="off" required>
+        <p>Height(cm)</p>
+      </label>
+      <label class="container">
+        <input type="number" class="text-input" id="weight" autocomplete="off" required>
+        <p>Weight(kg)</p>
+      </label>
+    </div>
+    <button type="button" id="submit">Calculate</button>
+  </form>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title{
+  padding: 32px;
+  text-align: center;
+}
+
+.form{
+  background-color: aqua;
+  padding: 16px 0px;
+  display: block;
+
+}
+
+.r-1{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.mf{
+  display: flex;
+  column-gap: 16px;
+}
+
+.r-2 {
+  display: flex;
+  column-gap: 16px;
+  padding: 8px 32px 24px;
+}
+
+.text-input{
+  width: 64px;
+  height: 32px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  margin: auto;
+  border: none;
+  padding: 8px 12px;
+  background-color: brown;
+  display: block;
+}
+
+p{
+  padding: 0px 8px;
+}
