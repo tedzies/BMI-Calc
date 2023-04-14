@@ -29,13 +29,11 @@ function countBmi(){
   if(bmi<18.5){
     result = 'Underweight';
   }else if(18.5<=bmi&&bmi<=24.9){
-    result = 'Healthy';
+    result = 'Normal Weight';
   }else if(25<=bmi&&bmi<=29.9){
     result = 'Overweight';
-  }else if(30<=bmi&&bmi<=34.9){
-    result = 'Obese';
-  }else if(35<=bmi){
-    result = 'Extremely obese';
+  }else if(30<=bmi){
+    result = 'Obesity';
   }
   
   var h1 = document.createElement("h1");
